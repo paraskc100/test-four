@@ -1,0 +1,7 @@
+<div *ngFor="let newsItem of newsItems">
+  <div class="thumbnail"><img src="{{newsItem.imageLink}}" ></div>
+  <div class="headline">{{newsItem.headline}}</div>
+  <div class="summary">{{newsItem.summary}}</div>
+  <div class="date">{{newsItem.datePosted}}</div>
+  <div class="like">{{newsItem.likeCount}}</div>
+</div>
